@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 
+ 
 export default function Home() {
     return (
         <div>
@@ -22,7 +23,6 @@ export default function Home() {
                     <div className="carousel-item active" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud1.jpg)` }}></div>
                     <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud3.jpg)` }}></div>
                     <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud4.jpg)` }}></div>
-                    <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud5.jpg)` }}></div>
                     <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud6.jpg)` }}></div>
 
                     <a className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -100,8 +100,7 @@ export default function Home() {
                         </div>
 
                         <div className="row gy-4">
-
-                            <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100"  >
                                 <div className="service-item  position-relative">
                                     <div className="icon">
                                         <i className="fa-solid fa-mountain-city"></i>
@@ -109,9 +108,9 @@ export default function Home() {
                                     <h3>Cloud Consulting</h3>
                                     <p>Leverage our decades of experience with some of the world's most complicated IT environments to create your optimal cloud strategy, streamline your IT architecture, and achieve your desire business results.</p>
                                     <a href="service-details.html" className="readmore stretched-link">Learn more <i className="bi bi-arrow-right"></i></a>
-                                </div>
                             </div>
-
+                            </div>
+                            
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <div className="service-item position-relative">
                                     <div className="icon">
@@ -220,7 +219,6 @@ export default function Home() {
                     </div>
                 </section>
 
-               
                 <section id="projects" class="projects">
                     <div class="container" data-aos="fade-up">
 
@@ -380,113 +378,6 @@ export default function Home() {
 
                             </div>
 
-                        </div>
-
-                    </div>
-                </section>
-                <section id="testimonials" class="testimonials section-bg">
-                    <div class="container" data-aos="fade-up">
-
-                        <div class="section-header">
-                            <h2>Testimonials</h2>
-                            <p>To prove the value of what we have to offer, why not let ou happy customers do the talking?</p>
-                        </div>
-
-                        <div class="slides-2 swiper">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-wrap">
-                                        <div class="testimonial-item">
-                                            <img src="assets/img/testimonials/amiya.JPG" class="testimonial-img" alt=""/>
-                                                <h3>Amiya Acharya</h3>
-                                                <h4>Developer &amp; Engineer</h4>
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                                </div>
-                                                <p>
-                                                    <i class="bi bi-quote quote-icon-left"></i>
-                                                    The best testimonials connect with the reader or viewer on an emotional level, with a healthy dose of evidence to reassure them that your business has a proven track record.
-                                                    <i class="bi bi-quote quote-icon-right"></i>
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-wrap">
-                                        <div class="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""/>
-                                                <h3>Sara Wilsson</h3>
-                                                <h4>Designer</h4>
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                                </div>
-                                                <p>
-                                                    <i class="bi bi-quote quote-icon-left"></i>
-                                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                                    <i class="bi bi-quote quote-icon-right"></i>
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-wrap">
-                                        <div class="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""/>
-                                                <h3>Jena Karlis</h3>
-                                                <h4>Store Owner</h4>
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                                </div>
-                                                <p>
-                                                    <i class="bi bi-quote quote-icon-left"></i>
-                                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                                    <i class="bi bi-quote quote-icon-right"></i>
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-wrap">
-                                        <div class="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""/>
-                                                <h3>Matt Brandon</h3>
-                                                <h4>Freelancer</h4>
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                                </div>
-                                                <p>
-                                                    <i class="bi bi-quote quote-icon-left"></i>
-                                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                                    <i class="bi bi-quote quote-icon-right"></i>
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-wrap">
-                                        <div class="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""/>
-                                                <h3>John Larson</h3>
-                                                <h4>Entrepreneur</h4>
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                                </div>
-                                                <p>
-                                                    <i class="bi bi-quote quote-icon-left"></i>
-                                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                                    <i class="bi bi-quote quote-icon-right"></i>
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-pagination"></div>
                         </div>
 
                     </div>
