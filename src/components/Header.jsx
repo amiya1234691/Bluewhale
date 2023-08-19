@@ -1,11 +1,6 @@
 import React from 'react'
-import {Link, Route, Switch } from 'react-router-dom';
-import About from '../pages/About';
-import LoginPage from '../pages/LoginPage';
-import Contact from '../pages/Contact';
-import Projects from '../pages/Projects';
-import Service from '../pages/Service';
-import Home from './Home';
+import {Link } from 'react-router-dom';
+
 
 export default function Header() {
     return (
@@ -15,8 +10,8 @@ export default function Header() {
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                     <Link to="/" className="logo d-flex align-items-center">
-                        <img src="assets/img/logo.png" alt="" />
-                        <h1>Blue Whale Stacks<span>.</span></h1>
+                        <img src="assets/img/logob.jpg" alt="logo"/>
+                        <h1>Blue Whale Stacks</h1>
                     </Link>
 
                     <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>

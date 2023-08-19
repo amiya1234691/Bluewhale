@@ -10,7 +10,7 @@ export default function Home() {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6 text-center">
-                                <h2 data-aos="fade-down">Welcome to <span>Blue Whale Cloud</span></h2>
+                                <h2 data-aos="fade-down">Welcome to <span>Blue Whale Stacks</span></h2>
                                 <p data-aos="fade-up">A cloud management platform that enables developers to quickly deploy and provision cloud resources using pre-defined templates. The platform also includes policies that govern resource operations, improving overall IT productivity and visibility by centralizing cloud data and resources..</p>
                                 <a data-aos="fade-up" data-aos-delay="200" href="#get-started" className="btn-get-started">Try us out</a>
                             </div>
