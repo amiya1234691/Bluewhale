@@ -11,7 +11,6 @@ export default function Header() {
 
                     <Link to="/" className="logo d-flex align-items-center">
                         <img src="assets/img/logob.jpg" alt="logo"/>
-                        <h1>Blue Whale Stacks</h1>
                     </Link>
 
                     <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>

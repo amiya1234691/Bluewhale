@@ -22,7 +22,7 @@ export default function Home() {
 
                     <div className="carousel-item active" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud1.jpg)` }}></div>
                     <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud3.jpg)` }}></div>
-                    <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud4.jpg)` }}></div>
+                    <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud5.jpg)` }}></div>
                     <div className="carousel-item" style={{ backgroundImage: `url(assets/img/hero-carousel/cloud6.jpg)` }}></div>
 
                     <a className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
