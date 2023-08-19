@@ -6,13 +6,11 @@ export default function Header() {
     return (
         
         <div>
-            <header id="header" className="header d-flex align-items-center" >
-                <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-
+            <header id="header" className="header d-flex align-items-center"  >
+                <div className="container-fluid container-xl d-flex align-items-center justify-content-between" > 
                     <Link to="/" className="logo d-flex align-items-center">
-                        <img src="assets/img/logob.jpg" alt="logo"/>
-                    </Link>
-
+                        <img src="assets/img/logob.jpg" alt="logo" />
+                    </Link>      
                     <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                     <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
                     <nav id="navbar" className="navbar">
